@@ -1,27 +1,80 @@
 {
-    "animals": [
-        { "id": 1, "name": "Doodles", "breed": "Poodle"},
-        { "id": 2, "name": "Decker", "breed": "German Shepherd" },
-        { "id": 3, "name": "Esme", "breed": "Pitbull" }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
-        }
-    ],
-    "employees": [],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Sammy",
+      "breed": "Samoyed"
+    },
+    {
+      "id": 2,
+      "name": "Decker",
+      "breed": "German Shepherd"
+    },
+    {
+      "id": 3,
+      "name": "Weiner",
+      "breed": "Dachshund"
+    },
+    {
+      "id": 4,
+      "name": "Esme",
+      "breed": "Pitbull"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Holy Jenkins",
+      "address": "1205 lolstreet"
+    },
+    {
+      "id": 2,
+      "name": "Lola Smith",
+      "address": "456 checkyoself ave"
+    },
+    {
+      "id": 3,
+      "name": "Jamie Manchester",
+      "address": "999 megaton mile"
+    },
+    {
+      "id": 4,
+      "name": "Emma Hopkins",
+      "address": "678 Felix Ave"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Sammy",
+      "locationsId": "1"
+    },
+    {
+      "id": 2,
+      "name": "Decker",
+      "locationsId": "2"
+    },
+    {
+      "id": 3,
+      "name": "Weiner",
+      "locationsId": "3"
+    },
+    {
+      "id": 4,
+      "name": "Esme",
+      "locationsId": "4"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ]
 }
